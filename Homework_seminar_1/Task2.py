@@ -1,8 +1,5 @@
-from re import X
-
-
-PointX = int(input('Введите точку X: '))
-PointY = int(input('Введите точку Y: '))
+PointX = int(input('Введите координаты точки на оси X: '))
+PointY = int(input('Введите координаты точки на оси Y: '))
 
 if  PointX > 0 and PointY > 0:
     print('1')
