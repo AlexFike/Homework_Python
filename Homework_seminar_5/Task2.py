@@ -10,7 +10,7 @@ def read_file_list(link):
 def check(A):
     for i in range(A[0],len(A)+1):
         if A[i] - 1 != A[i -1]:
-            result = i+1
+            result = i + 1
             break
     return result
 
