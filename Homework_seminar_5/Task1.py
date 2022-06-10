@@ -3,7 +3,7 @@ import random
 import string
 
 # k = int(input('degree: '))
-k = 7
+k = 8
 rand = random.randint
 
 size = rand(1,9)
@@ -21,6 +21,7 @@ print(li)
 
 with open('Homework_seminar_5/file.txt', 'w') as file:
     file.write(li)
+
 
 
 
